@@ -20,6 +20,7 @@ var cartHTML = "<table> <tr> <th>Item</th><th>Description</th><th>Price</th><th>
 //Created a for loop that loops through the entries in the item array
 for (var i = 0; i <= 3; i++) {
 
+
     cartHTML += "<tr> <td><img src='tc_" + item[i] + ".png' alt='item' />" + "</td>";
 
     // displays the description, price, and quantity ordered of the item
